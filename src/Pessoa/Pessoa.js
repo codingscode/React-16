@@ -4,7 +4,7 @@ import React from 'react';
 import classes from './Pessoa.css'
 
 const pessoa = (props) => {
-      
+   console.log('[Pessoa.js] rendering...') 
    return (
       <div className={classes.Pessoa} >
          <p onClick={props.click}>Eu sou {props.nome}, Eu sou uma Pessoa e tenho {props.idade} anos !</p>
